@@ -64,3 +64,13 @@ false
 Browser.ie()
 false
 ```
+
+
+### Compile & Minify
+```shell 
+  $ coffee -w --output . --compile ./source
+```
+
+```shell
+  $ uglifyjs --output browser.min.js browser.js
+```
