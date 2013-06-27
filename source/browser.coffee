@@ -55,7 +55,7 @@ class @Browser
   @meta: ->
     os: do @operating_system
     name: do @vendor
-    version: do @semver
+    version: do @version
 
 
 

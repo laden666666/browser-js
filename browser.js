@@ -64,7 +64,7 @@
       return {
         os: this.operating_system(),
         name: this.vendor(),
-        version: this.semver()
+        version: this.version()
       };
     };
 
