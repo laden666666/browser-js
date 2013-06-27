@@ -1,5 +1,5 @@
 ###
-  Browser.js - v0.1.1
+  Browser.js - v0.1.2
   Copyright (c) 2013 Ryan Lindsey
   Dual licensed under the MIT license and GPL license.
   https://github.com/pixelsonly
@@ -79,13 +79,12 @@ class @Browser
 
   # Vendors
   # -------------------------------------
-  @version: ->
+  @semver: ->
     String(Browser.USER_AGENT.match(Browser.VERSIONS.default)[1])
 
-  @semver: ->
-    semver = do @version
+  @version: ->
+    semver = do @semver
     semver.split('.')[0]
-
 
   @vendor: ->
     if @chrome()
