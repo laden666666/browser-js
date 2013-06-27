@@ -1,5 +1,5 @@
 ###
-  Browser.js - v0.1.2
+  Browser.js
   Copyright (c) 2013 Ryan Lindsey
   Dual licensed under the MIT license and GPL license.
   https://github.com/pixelsonly
