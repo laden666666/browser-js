@@ -68,7 +68,7 @@ false
 
 ### Compile & Minify
 ```shell 
-  $ coffee -w --output . --compile ./source
+  $ coffee -w -c .
 ```
 
 ```shell
